@@ -1,0 +1,30 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "Jinsun Kim",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.1",
+    "@graphql-tools/schema": "^10.0.2",
+    "@prisma/client": "^5.7.0",
+    "apollo-server": "^2.25.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.5",
+    "nodemon": "^3.0.2",
+    "prisma": "^5.7.0"
+  }
+}
